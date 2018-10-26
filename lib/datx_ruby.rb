@@ -10,29 +10,52 @@ module DatxRuby
   require "datx_ruby/district"
   require "datx_ruby/city"
 
+  # set city datx file path
+  # Example:
+  #   >> DXR.city_datx_path= "/path/data/17monipdb.datx"
+  #   => /path/data/17monipdb.datx
+  # Arguments:
+  #   path: (String)
   def self.city_datx_path=(path)
     City.datax_path= path
   end
 
+  # set district datx file path
+  # Example:
+  #   >> DXR.district_datx_path= "/path/data/17monipdb.datx"
+  #   => /path/data/17monipdb.datx
+  # Arguments:
+  #   path: (String)
   def self.district_datx_path=(path)
     District.datax_path= path
   end
 
+  # find a ip's location
+  # Example:
+  #   >> DXR.city_find("106.75.109.221")
+  #   => ["中国", "北京", "北京"]
+  # Arguments:
+  #   ip: (String)
   def self.city_find(ip)
     City.new.find(ip)
   end
 
+  # find a ip's district
+  # Example:
+  #   >> DXR.district_find("106.75.109.221")
+  #   => ["中国", "北京", "北京"]
+  # Arguments:
+  #   ip: (String)
   def self.district_find(ip)
     District.new.find(ip)
   end
 
 end
 
-DXR = DatxRuby
 
 
 if $0==__FILE__
-  DXR.city_datx_path= "/home/limx/myfiles/github/datx-ruby/lib/data/17monipdb.datx"
-  puts DXR.city_find("106.75.109.221")
+  DatxRuby.city_datx_path= "/home/limx/myfiles/github/datx-ruby/lib/data/17monipdb.datx"
+  puts DatxRuby.city_find("106.75.109.221")
   # puts DatxRuby.find_by_address "http://taobao.com"
 end

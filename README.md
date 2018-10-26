@@ -30,7 +30,7 @@ DRX.city_find "106.75.109.221"
 # => ["中国", "北京", "北京", "ucloud.cn", "联通"]
 ```
 ### In Rails
-You need to do is set DRX.city_datx_path= "/datapath/ipipnet.datx" inside the config/initializers/datx_ruby.rb file.
+You need to do is set DatxRuby.city_datx_path= "/datapath/ipipnet.datx" inside the config/initializers/datx_ruby.rb file.
 
 
 [Report bugs][issues] on GitHub.
