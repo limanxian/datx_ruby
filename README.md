@@ -25,8 +25,8 @@ And then execute:
 
 ### In Ruby
 ```(ruby)
-DRX.city_datx_path= "/datapath/ipipnet.datx"
-DRX.city_find "106.75.109.221"
+DatxRuby.city_datx_path= "/datapath/ipipnet.datx"
+DatxRuby.city_find "106.75.109.221"
 # => ["中国", "北京", "北京", "ucloud.cn", "联通"]
 ```
 ### In Rails

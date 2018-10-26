@@ -12,7 +12,7 @@ module DatxRuby
 
   # set city datx file path
   # Example:
-  #   >> DXR.city_datx_path= "/path/data/17monipdb.datx"
+  #   >> DatxRuby.city_datx_path= "/path/data/17monipdb.datx"
   #   => /path/data/17monipdb.datx
   # Arguments:
   #   path: (String)
@@ -22,7 +22,7 @@ module DatxRuby
 
   # set district datx file path
   # Example:
-  #   >> DXR.district_datx_path= "/path/data/17monipdb.datx"
+  #   >> DatxRuby.district_datx_path= "/path/data/17monipdb.datx"
   #   => /path/data/17monipdb.datx
   # Arguments:
   #   path: (String)
@@ -32,7 +32,7 @@ module DatxRuby
 
   # find a ip's location
   # Example:
-  #   >> DXR.city_find("106.75.109.221")
+  #   >> DatxRuby.city_find("106.75.109.221")
   #   => ["中国", "北京", "北京"]
   # Arguments:
   #   ip: (String)
@@ -42,7 +42,7 @@ module DatxRuby
 
   # find a ip's district
   # Example:
-  #   >> DXR.district_find("106.75.109.221")
+  #   >> DatxRuby.district_find("106.75.109.221")
   #   => ["中国", "北京", "北京"]
   # Arguments:
   #   ip: (String)
