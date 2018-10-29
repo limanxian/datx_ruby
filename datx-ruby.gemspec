@@ -11,9 +11,7 @@ Gem::Specification.new do |s|
   s.description = %q{A Ruby library to parse ipipnet datx file}
   s.authors = ["limanxian"]
   s.email = ["limanxian_321@126.com"]
-  s.files = [
-    "lib/datx_ruby.rb"
-  ]
+  s.files = `git ls-files`.split("\n")
 
   s.homepage = "https://github.com/limanxian/datx-ruby"
   s.license = "MIT"
