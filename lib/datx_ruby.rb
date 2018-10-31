@@ -2,7 +2,6 @@
 
 # 解析ipip.net库， city_find:查找ip的城市, district_find: 查找ip的区县
 module DatxRuby
-  require "socket"
   require "ipaddr"
   require "datx_ruby/version"
   require "datx_ruby/util"
@@ -52,10 +51,3 @@ module DatxRuby
 
 end
 
-
-
-if $0==__FILE__
-  DatxRuby.city_datx_path= "/home/limx/myfiles/github/datx-ruby/lib/data/17monipdb.datx"
-  puts DatxRuby.city_find("106.75.109.221")
-  # puts DatxRuby.find_by_address "http://taobao.com"
-end

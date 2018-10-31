@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'datx_ruby/version'
 
 Gem::Specification.new do |s|
-  s.name = %q{datx-ruby}
+  s.name = %q{datx_ruby}
   s.version = DatxRuby::VERSION
   s.date = %q{2018-10-23}
   s.summary = %q{A Ruby library to parse ipipnet datx file}

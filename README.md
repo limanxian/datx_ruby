@@ -8,12 +8,12 @@ I have tested it on Ruby >= 1.9.3. Other versions are not tested but should work
 
 ## Installation
 
-    gem install datx-ruby
+    gem install datx_ruby
 
 
 OR add this line to your application's Gemfile:
 
-    gem 'datx-ruby'
+    gem 'datx_ruby'
     
 
 And then execute:
