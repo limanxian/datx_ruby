@@ -37,4 +37,4 @@ You need to do is set DatxRuby.city_datx_path= "/datapath/ipipnet.datx" inside t
 [Report bugs][issues] on GitHub.
 
 
-[issues]: https://github.com/limanxian/datx-ruby/issues
+[issues]: https://github.com/limanxian/datx_ruby/issues

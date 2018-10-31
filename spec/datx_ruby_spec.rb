@@ -5,7 +5,7 @@ describe DatxRuby do
 
   describe "# query test" do
     before :all do
-      @path = "/home/limx/myfiles/github/datx-ruby/lib/data/17monipdb.datx"
+      @path = "/home/limx/myfiles/github/datx_ruby/lib/data/17monipdb.datx"
       DatxRuby.city_datx_path = @path
     end
 

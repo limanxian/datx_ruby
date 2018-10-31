@@ -50,4 +50,3 @@ module DatxRuby
   end
 
 end
-

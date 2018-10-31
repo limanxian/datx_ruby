@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.email = ["limanxian_321@126.com"]
   s.files = `git ls-files`.split("\n")
 
-  s.homepage = "https://github.com/limanxian/datx-ruby"
+  s.homepage = "https://github.com/limanxian/datx_ruby"
   s.license = "MIT"
 
   s.require_paths = ["lib"]
